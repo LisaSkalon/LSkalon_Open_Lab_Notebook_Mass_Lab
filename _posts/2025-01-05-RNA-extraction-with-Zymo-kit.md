@@ -2,7 +2,7 @@
 layout: post
 title: S. pistillata RNA extraction with Zymo kit
 category: Extraction
-tags: [ RNA, DNA, Stylophora]
+tags: [ RNA,extraction, Stylophora]
 ---
 
 Using the [Zymo Quick-RNA Miniprep Kit](https://zymoresearch.eu/products/quick-rna-miniprep-kit?srsltid=AfmBOopsarPpj1DdSkjsfXvbcLN-pO_j9GiG8wIRXY7-RMEvYAxVawfm) on _Stylophora pistillata_ samples across depths. 
@@ -21,7 +21,7 @@ For this extraction I used the [protocol](https://fscucchia.github.io/FScucchia_
 
 ### Disruption of the coral skeleton
 1. Thaw samples on ice.
-2. Put 0.4-0.5 ml of 1 mm glass beads to the sample tube. Put samples into a Disruptor Genie for 1 minute at 2000 rpm. The amount of time for vortexing will depend on the coral skeletal structure and how easily the tissue separates from the skeleton. Too much vortexing can cause DNA/RNA degradation, but too little vortexing can result in minimal DNA/RNA yield.  
+2. Put 0.4-0.5 ml of 2 mm glass beads to the sample tube. Put samples into a Disruptor Genie for 1 minute at 2000 rpm. The amount of time for vortexing will depend on the coral skeletal structure and how easily the tissue separates from the skeleton. Too much vortexing can cause DNA/RNA degradation, but too little vortexing can result in minimal DNA/RNA yield.  
 4. Transfer 345 µl of liquid into a new 1.5 ml tube. Save the tube with the skeleton fragment in -80°C freezer as a potential back-up in case the extraction doesn't work.  
 5. Proceed to RNA Extraction steps.  
 
@@ -69,4 +69,6 @@ For this extraction I used the [protocol](https://fscucchia.github.io/FScucchia_
 39. Store all tubes in the -80°C
 
 #### RNA Quality  
-If RNA quantity is sufficient (for sequencing you need to have a total of 500 ng per sample), determine RNA quality using the Tape Station. "Good" RNA should have a RIN above 8.0 and form two distinct peaks at the 18S and 28S locations. 
+If RNA quantity is sufficient (for sequencing you need to have a total of 500 ng per sample), determine RNA quality using the Tape Station. "Good" RNA should have a RIN above 8.0 and form two distinct peaks at the 18S and 28S locations.
+
+*This protocol was created on 06.11.24.*
