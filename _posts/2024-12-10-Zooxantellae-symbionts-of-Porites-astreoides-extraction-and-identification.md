@@ -5,7 +5,7 @@ category: Extraction
 tags: [DNA, extraction, Porites, PCR]
 ---
 
-This protocol was adapted from the protocol of Rachel Bober [RachelBober](https://github.com/RachelBober/) written on 26.11.24.
+This protocol was adapted from the protocol of Rachel Bober [(RachelBober)](https://github.com/RachelBober/) written on 26.11.24.
 The aim is to compare symbiont species of P. astreoides across treatments in the translocation experiment. For this:
 1. DNA was extracted from acetone-fixed zooxantellae from each coral sample
 2. DNA was amplified with ITS2 primers
@@ -17,8 +17,8 @@ Using the [ISOLATE II Plant DNA kit](https://www.bioline.com/mwdownloads/downloa
 ### 1. DNA extraction
 
 #### Preparations
-1. Pre-heat incubator to 65ºC, pre-heat Lysis Buffer PA1 and Elution Buffer PG to 65ºC
-2. Fill bucket with ice
+1. Pre-heat an incubator to 65ºC, pre-heat Lysis Buffer PA1 and Elution Buffer PG to 65ºC
+2. Fill a bucket with ice
 3. Take out from -20ºC: Proteinase K (Zymo kit), RNAseI (ISOLATE II kit) and put on ice
 
 #### Initial steps for samples stored in acetone
@@ -26,7 +26,7 @@ Using the [ISOLATE II Plant DNA kit](https://www.bioline.com/mwdownloads/downloa
 2. Remove acetone with a filter tip
 3. Repeat centrifugation to remove acetone remains
 4. Wash pellet with 1 ml FSW (0.22u filtered sea water) or PBS (use reverse pipetting and mix well)
-5. Transfer sample into a new 1.5 ml tube
+5. Transfer the sample into a new 1.5 ml tube
 6. Centrifuge again for 1 minute. If a pellet is not forming, add another centrifugation step -  5 min at max speed
 7. Remove FSW/PBS supernatant using a filter tip, be careful – do not disturb the pellet.
 Note: If some FSW/PBS remains, continue without trying to remove it.
@@ -72,4 +72,28 @@ Note: If some FSW/PBS remains, continue without trying to remove it.
 
 #### DNA quantity
 1. Measure DNA quantity and ratio with NanoDrop
-   
+
+### 2. PCR
+
+Primers for ITS2:
+
+|  			CS1F 		 |  			F 		 |  			ACACTGACGACATGGTTCTACATGTGAATTGCAGAACTCCGTG 		    |  
+|--------|-----|--------------------------------------------------|
+|  			CS2R 		 |  			R 		 |  			TACGGTAGCAGAGACTTGGTCTTACTTATATGCTTAAATTCRGCGG 		 | 
+
+Master mix: [GoTaq® Green master mix](https://worldwide.promega.com/resources/protocols/product-information-sheets/g/gotaq-green-master-mix-m712-protocol/) from Promega.
+
+I diluted each sample according to the NanoDrop results so the DNA template was around 2-3 ng/ul for each sample. For 25 ul reaction:
+|  			Component 		                   |  			Volume 		 |
+|-------------------------------|----------|
+|  			GoTaq® Green Master Mix, 2X 		 |  			12.5µl 		 |
+|  			upstream primer, 10µM 		       |  			0.75µl 		 |
+|  			downstream primer, 10µM 		     |  			0.75µl  |
+|  			DNA template	                 |  			5.0 µl 		 |
+|  			BSA, 1 mg/ml                 |  			4.0 µl 		 |
+|           DMSO 100%           |  2.0 µl  |
+|  			H2O 		                         |  			- 		      |
+
+PCR program: 16 NGS (BioRad C1000 Thouch Thermal Cycler)
+
+
