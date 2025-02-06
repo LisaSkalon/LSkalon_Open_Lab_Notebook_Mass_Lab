@@ -96,4 +96,25 @@ I diluted each sample according to the NanoDrop results so the DNA template was 
 
 PCR program: 16 NGS (BioRad C1000 Thouch Thermal Cycler)
 
+|  			ITS CS      |  			Temp C |  			Cycles                      |
+|--------------|---------|------------------------------|
+| Initial      | 94      | 1                            |
+| Denaturation | 94      | 3,4,5 - repeat for 10 cycles |
+| Annealing    | 50      | 3,4,5 - repeat for 10 cycles |
+| Elongation   | 72      | 3,4,5 - repeat for 10 cycles |
+| Denaturation | 94      | 6,7,8 - repeat for 15 cycles |
+| Annealing    | 60      | 6,7,8 - repeat for 15 cycles |
+| Elongation   | 72      | 6,7,8 - repeat for 15 cycles |
+| Final        | 72      | 1                            |
+
+For some of the samples, this PCR result in a double band in the desired location. The second annealing temperature can be increased to 61.5ºC for a better specificity of the primers. It solves the problem of a double band for almost all samples, simultaneously reducing the intensity of the band.  
+
+### 3. Gel electrophoresis
+
+Big gel (~25 lanes) recipe: 1% agarose gel (1g agarose in 100 ml 0.5x TBE + 4 ul Red safe), 110 V 
+Small gel (~15 lanes) recipe: 1% agarose gel (0.5g agarose in 50 ml 0.5x TBE + 2 ul Red safe), 70 V
+Ladders: EuRx Perfect 1 kb DNA Ladder, EuRx Perfect 100 bp DNA Ladder.
+
+### 4. Excising gel bands and cleaning the product
+
 
