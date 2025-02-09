@@ -84,6 +84,7 @@ Primers for ITS2:
 Master mix: [GoTaq® Green master mix](https://worldwide.promega.com/resources/protocols/product-information-sheets/g/gotaq-green-master-mix-m712-protocol/) from Promega.
 
 I diluted each sample according to the NanoDrop results so the DNA template was around 2-3 ng/ul for each sample. For 25 ul reaction:
+
 |  			Component 		                   |  			Volume 		 |
 |-------------------------------|----------|
 |  			GoTaq® Green Master Mix, 2X 		 |  			12.5µl 		 |
@@ -112,7 +113,9 @@ For some of the samples, this PCR result in a double band in the desired locatio
 ### 3. Gel electrophoresis
 
 Big gel (~25 lanes) recipe: 1% agarose gel (1g agarose in 100 ml 0.5x TBE + 4 ul Red safe), 110 V 
+
 Small gel (~15 lanes) recipe: 1% agarose gel (0.5g agarose in 50 ml 0.5x TBE + 2 ul Red safe), 70 V
+
 Ladders: EuRx Perfect 1 kb DNA Ladder, EuRx Perfect 100 bp DNA Ladder.
 
 ### 4. Excising gel bands and cleaning the product
