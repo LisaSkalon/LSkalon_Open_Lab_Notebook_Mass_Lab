@@ -37,7 +37,7 @@ High duplication level and high polyA/adaptor content, as well as failed GC-cont
 ### Fastqc after trimming
 Reads were trimmed with Trimmomatic to get rid of adaptors and polyA + to remove low quality bases (Phred < 30). Reads shorter than 30 bp were discarded.
 The number of reads reduced in each sample, but the most dramatical reduction was observed in TM3. 
-![General stats](https://github.com/LisaSkalon/LSkalon_Open_Lab_Notebook_Mass_Lab/blob/master/images/general.stat.after.png)  
+![General stats]({{site.baseurl}}/images/general.stat.after.png)  
 
 ### STAR mapping to S. pistillata genome
 
