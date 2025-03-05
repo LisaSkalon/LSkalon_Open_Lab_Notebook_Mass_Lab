@@ -17,7 +17,7 @@ Here, I tested 3'-end libraries sequencing results.
 The libraries were constructed 3 times from each sample, pooled together and sequenced. In total, 6 files with raw reads were created:
 
 |  file prefix |    description    |
-| ------ | ----------------------- |
+| -------------| ----------------- |
 | TM1_S1 | preparation 1, sample 1 |
 | TM1_S2 | preparation 1, sample 2 |
 | TM2_S1 | preparation 2, sample 1 |
