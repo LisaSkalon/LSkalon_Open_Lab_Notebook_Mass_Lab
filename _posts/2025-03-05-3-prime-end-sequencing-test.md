@@ -28,9 +28,9 @@ The libraries were constructed 3 times from each sample, pooled together and seq
 ### Initial fastqc results
 Initial quality was accessed with fastqc. 
 
-![General stats](https://github.com/LisaSkalon/LSkalon_Open_Lab_Notebook_Mass_Lab/blob/master/images/general.stat.before.png "stats")  
-![Per base quality](https://github.com/LisaSkalon/LSkalon_Open_Lab_Notebook_Mass_Lab/blob/master/images/fastqc_per_base_sequence_quality_plot.before.png)  
-![Adaptors](https://github.com/LisaSkalon/LSkalon_Open_Lab_Notebook_Mass_Lab/blob/master/images/fastqc_adapter_content_plot.before.png)  
+![General stats]({{site.baseurl}}/images/general.stat.before.png "stats")  
+![Per base quality]({{site.baseurl}}/images/fastqc_per_base_sequence_quality_plot.before.png)  
+![Adaptors]({{site.baseurl}}/images/fastqc_adapter_content_plot.before.png)  
 
 High duplication level and high polyA/adaptor content, as well as failed GC-content plot are normal for 3'-end data. Overall, the quality of all samples is good, but the sequencing depth is different, for TM3 it is below 10 million reads.
 
@@ -43,8 +43,8 @@ The number of reads reduced in each sample, but the most dramatical reduction wa
 
 Reads were mapped to S. pistillata reference genome with standard STAR parameters. 
 
-![General stats](https://github.com/LisaSkalon/LSkalon_Open_Lab_Notebook_Mass_Lab/blob/master/images/general.stat.star.png)  
-![Mapping stat](https://github.com/LisaSkalon/LSkalon_Open_Lab_Notebook_Mass_Lab/blob/master/images/star_alignment_plot.png)  
-![Mapping stat perc](https://github.com/LisaSkalon/LSkalon_Open_Lab_Notebook_Mass_Lab/blob/master/images/star_alignment_plot2.png)  
-![Counts](https://github.com/LisaSkalon/LSkalon_Open_Lab_Notebook_Mass_Lab/blob/master/images/star_gene_counts.png)  
-![Counts perc](https://github.com/LisaSkalon/LSkalon_Open_Lab_Notebook_Mass_Lab/blob/master/images/star_gene_counts2.png)  
+![General stats]({{site.baseurl}}/images/general.stat.star.png)  
+![Mapping stat]({{site.baseurl}}/images/star_alignment_plot.png)  
+![Mapping stat perc]({{site.baseurl}}/images/star_alignment_plot2.png)  
+![Counts]({{site.baseurl}}/images/star_gene_counts.png)  
+![Counts perc]({{site.baseurl}}/images/star_gene_counts2.png)  
