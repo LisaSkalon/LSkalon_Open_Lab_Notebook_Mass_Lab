@@ -81,7 +81,7 @@ TM3 appeared to be non strand-specific:
 We expect that a 3'-end of a transcript has high coverage and the other parts of the transcript are less covered - coverage plots should be skewed as on the example from the [paper](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5393-3#Sec2) (Lexo is a 3'-end library):
 ![example]({{site.baseurl}}/images/article.cov.ex.png)
 
-TM2 shows the result, which is more consisted with the paper, while in TM1 reads are also distributed across the 5' end of the transcript.
+TM2 shows the result, which is more consistent with the paper, while in TM1 reads are also distributed across the 5' end of the transcript.
 ![Coverage plot]({{site.baseurl}}/images/rseqc.basic.output.geneBodyCoverage.curves-1.png)
 ![heat map]({{site.baseurl}}/images/rseqc.basic.output.geneBodyCoverage.heatMap-1.png)
 
