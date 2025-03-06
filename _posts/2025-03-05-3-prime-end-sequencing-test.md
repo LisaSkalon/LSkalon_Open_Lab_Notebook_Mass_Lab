@@ -81,8 +81,7 @@ TM3 appeared to be non strand-specific:
 We expect that a 3'-end of a transcript has high coverage and the other parts of the transcript are less covered - coverage plots should be skewed as on the example from the [paper](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5393-3#Sec2) (Lexo is a 3'-end library):
 ![example]({{site.baseurl}}/images/article.cov.ex.png)
 
-TM2 shows the result, which is more consisted with the paper, while in TM1 reads are distributed more uniformly across the whole body of the transcript.
-
+TM2 shows the result, which is more consisted with the paper, while in TM1 reads are also distributed across the 5' end of the transcript.
 ![Coverage plot]({{site.baseurl}}/images/rseqc.basic.output.geneBodyCoverage.curves-1.png)
 ![heat map]({{site.baseurl}}/images/rseqc.basic.output.geneBodyCoverage.heatMap-1.png)
 
@@ -102,5 +101,5 @@ I tried to run a simple DE analysis on this data just to test if everything look
 ![cluster]({{site.baseurl}}/images/Dist.shallow-1.png)
 
 ### Summary
-Overall, the sequencing quality is good, we have no contamination and most of the reads align to a genome in each sample. The most significant difference between preps is sequencing depth - I am not sure whether it's an effect of a prep method or something went wrong during the pooling step. The other important observation is the strandness of the libraries - TM3 for some reason is not stranded, while TM1 and TM2 are stranded. The last observation is regarding the gene body coverage of each library - I expected it to be more skewed towards the 3' end, but in TM1 and TM3 the 5' end is also covered, and even in TM2 the coverage plot is not that steep. TM2 prep seems to have the best results across all preps, but TM1 is also ok. 
+Overall, the sequencing quality is good, we have no contamination and most of the reads align to a genome in each sample. The most significant difference between preps is sequencing depth - I am not sure whether it's an effect of a prep method or something went wrong during the pooling step. The other important observation is the strandness of the libraries - TM3 for some reason is not stranded, while TM1 and TM2 are stranded. The last observation is regarding the gene body coverage of each library - I expected it to be more skewed towards the 3' end, but in TM1 the 5' end is also covered, and even in TM2 and TM3 the coverage plot is not that steep. TM2 prep seems to have the best results across all preps, but TM1 is also ok. 
 
