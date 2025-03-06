@@ -46,12 +46,12 @@ The number of reads reduced in each sample, but the most dramatical reduction wa
 ![General stats]({{site.baseurl}}/images/general.stat.after.png)  
 
 ### Taxonomic classification and contamination check
-I run kraken2 to check the overall taxonomic classification of reads. In each sample, 90-95% of reads were classified into some group, and there were no contaminations. The result is very similar between samples.
+I run kraken2 to check the overall taxonomic classification of reads. In each sample, 90-95% of reads were classified into some group, and there were no contaminations. The results are very similar between samples.
 ![krona plot]({{site.baseurl}}/images/krona.png)
 
 ### STAR mapping to S. pistillata genome
 
-Reads were mapped to S. pistillata reference genome with standard STAR parameters. 
+Reads were mapped to S. pistillata reference [genome](https://www.ncbi.nlm.nih.gov/datasets/genome/GCF_002571385.2/) with standard STAR parameters. 
 
 Overall alignment rate is high for each sample. The lowest percentage of aligned reads is observed in TM1.
 
@@ -78,16 +78,19 @@ TM3 appeared to be non strand-specific:
 
 ### Gene body coverage and 3'-skew
 
-We expect that a 3'-end of a transcript has high coverage and the other parts of the transcript are less covered - coverage plots should be skewed. See the example from the [paper](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5393-3#Sec2) (Lexo is a 3'-end library):
+We expect that a 3'-end of a transcript has high coverage and the other parts of the transcript are less covered - coverage plots should be skewed as on the example from the [paper](https://bmcgenomics.biomedcentral.com/articles/10.1186/s12864-018-5393-3#Sec2) (Lexo is a 3'-end library):
 ![example]({{site.baseurl}}/images/article.cov.ex.png)
 
-TM2 shows more consistent result, while TM1 and TM2 are distributed more uniformly across the whole body of the transcript.
-![Coverage plot]({{site.baseurl}}/master/images/rseqc.basic.output.geneBodyCoverage.curves-1.png)
+TM2 shows the result, which is more consisted with the paper, while in TM1 reads are distributed more uniformly across the whole body of the transcript.
+
+![Coverage plot]({{site.baseurl}}/images/rseqc.basic.output.geneBodyCoverage.curves-1.png)
 ![heat map]({{site.baseurl}}/images/rseqc.basic.output.geneBodyCoverage.heatMap-1.png)
 
 Random genes in IGV genome browser show different situations.  
+
 For some genes, the 3'-skew is more noticeable
 ![3-end]({{site.baseurl}}/images/3end.cov.png)
+
 For some genes, reads are almost uniformly distributed across transcript.
 ![unif]({{site.baseurl}}/images/unif.cov.png)
 
