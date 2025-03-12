@@ -16,8 +16,8 @@ Here, I tested 3'-end libraries sequencing results.
 
 The libraries were constructed 3 times from each sample, pooled together and sequenced. In total, 6 files with raw reads were analyzed:
 
-|  file prefix |    description    | starting concentration | fragmentation | PCR cycles | comments | 
-| -------------| ----------------- | -----------------------|---------------|------------|----------|
+|  file prefix |    description    | starting amount | fragmentation | PCR cycles | comments | 
+| -------------| ----------------- | ---------------------- | ------------- | ---------- | -------- |
 | TM1_S1 | preparation 1, sample 1 | 200 ng                 | 60 s          | 15         ||
 | TM1_S2 | preparation 1, sample 2 | 200 ng                 | 60 s          | 15         ||
 | TM2_S1 | preparation 2, sample 1 | 200 ng                 | 75 s          | 18         ||
