@@ -9,22 +9,22 @@ Here, I tested 3'-end libraries sequencing results.
 
 ### Samples
 
-| Sample | Quantity   | 260/280  | 230/280 | RIN     | Tube id |
+| Sample | Quantity   | 260/280  | 230/280 | RIN     | Tube id | 
 | ------ | ---------- | -------- | ------- | ------- | ------- |
 | S1     | 16.3 ng/ul | 1.88     | 0.57    | 8.3     | 1 RNA 16S 06.11 |
 | S2     | 17.8 ng/ul | 2.2      | 2.18    | 9.2     | 1.8 RNA 12.11 |
 
 The libraries were constructed 3 times from each sample, pooled together and sequenced. In total, 6 files with raw reads were analyzed:
 
-|  file prefix |    description    |
-| -------------| ----------------- |
-| TM1_S1 | preparation 1, sample 1 |
-| TM1_S2 | preparation 1, sample 2 |
-| TM2_S1 | preparation 2, sample 1 |
-| TM2_S2 | preparation 2, sample 2 |
-| TM3_S1 | preparation 3, sample 1 |
-| TM3_S2 | preparation 3, sample 2 |
-
+|  file prefix |    description    | starting concentration | fragmentation | PCR cycles | comments | 
+| -------------| ----------------- | -----------------------|---------------|------------|----------|
+| TM1_S1 | preparation 1, sample 1 | 200 ng                 | 60 s          | 15         ||
+| TM1_S2 | preparation 1, sample 2 | 200 ng                 | 60 s          | 15         ||
+| TM2_S1 | preparation 2, sample 1 | 200 ng                 | 75 s          | 18         ||
+| TM2_S2 | preparation 2, sample 2 | 200 ng                 | 75 s          | 18         ||
+| TM3_S1 | preparation 3, sample 1 | 200 ng                 | 75 s          | 18         | for the 3rd cleanup we used gel cleanup instead of beads |
+| TM3_S2 | preparation 3, sample 2 | 200 ng                 | 75 s          | 18         | for the 3rd cleanup we used gel cleanup instead of beads |
+ 
 ### Initial fastqc results
 Initial quality was accessed with fastqc. 
 
