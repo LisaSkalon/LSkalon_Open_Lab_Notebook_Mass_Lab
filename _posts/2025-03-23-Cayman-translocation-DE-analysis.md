@@ -40,18 +40,22 @@ I can't perform a time series design, because the condition is correlated with t
 
 ### Preliminary PCA
 
-Shallow origin
+Shallow origin  
+
 ![shallow]({{site.baseurl}}/images/PCA.shallow.png)
 
-Deep origin 
+Deep origin   
+
 ![deep]({{site.baseurl}}/images/PCA.deep.png)
 
 At least at shallow origin, samples are grouped not only by condition, but also by location.  
 
 ### DESeq2 design: shallow and deep origin separately
 
-Metadata tables: [deep origin](https://github.com/talimass/Cayman-translocation/blob/main/RNAseq_analysis/DE_analysis/Metadata.origin.D.csv),
+Metadata tables: 
 [shallow origin](https://github.com/talimass/Cayman-translocation/blob/main/RNAseq_analysis/DE_analysis/Metadata.origin.S.csv)
+
+[deep origin](https://github.com/talimass/Cayman-translocation/blob/main/RNAseq_analysis/DE_analysis/Metadata.origin.D.csv)
 
 If I separate shallow and deep origin, I can use this design:
 
@@ -97,7 +101,7 @@ dds <- DESeqDataSetFromMatrix(countData = countData,
                               design = ~ site + condition)
 ```
 PCA plot with removed variance from the location: 
-![PCA]({{site.baseurl}}/images/PCA.full.png)
+![PCA]({{site.baseurl}}/images/PCA.full.png)  
 It only explains 40% of variance.
 
 
