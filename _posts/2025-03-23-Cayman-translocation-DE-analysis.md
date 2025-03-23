@@ -7,7 +7,7 @@ tags: [ DE,R,transcriptomics]
 
 ### Design
 
-In **November 2022**, on two sites (**MF** and **CC**) located close to each other, coral colonies from 10 m (shallow) and 40 m (deep) were sampled for sequencing (**S** (shallow) and **D** (deep)),
+In **November 2022**, at two sites (**MF** and **CC**) located close to each other, coral colonies from 10 m (shallow) and 40 m (deep) were sampled for sequencing (**S** (shallow) and **D** (deep)),
 then each one was split into two pieces. 
 One piece of each colony was put back to the origin depth (**SS** (shallow -> shallow) and **DD** (deep -> deep)),
 and the other was translocated to an opposite depth (**SD** (shallow -> deep) and **DS** (deep -> shallow)).
