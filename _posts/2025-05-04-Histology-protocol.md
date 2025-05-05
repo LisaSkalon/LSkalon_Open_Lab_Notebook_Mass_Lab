@@ -25,13 +25,14 @@ This protocol was adapted from the protocol of Rachel Bober [(RachelBober)](http
 
 1. Wash X3 with PBS in RT, 15 min each.
 2. For scleractinian- decalcification of the skeleton with 1:1 formic acid (50% in DDW) & Sodium citrate 20% (20% in DDW). Transfer the fixed sample into 50 ml tubes and add the decalcification solution (10 ml in each tube - for samples bigger than 3 cm add 15 ml) for 4-5 hours\overnight.
-3. Transfer decalcified tissue into a cassete, mark the sample name on it using a crayon.
-4. Wash X3 with PBS in RT, 15 min each. Start the dehydratation immediately. 
+4. Transfer decalcified tissue into a cassete, mark the sample name on it using a crayon.
+5. Wash X3 with PBS in RT, 15 min each. Start the dehydratation immediately. 
 
 ### 3. Dehydratation and embedding
 
+0. Preheat the incubator and three glass jars filled with paraffin to 58-60 °C for 4 h/overnight to ensure the complete melting of paraffin.
 1. Dehydrate the tissue through a series of graded ethanol (with ddH2O) 50%, 75%, 90% and 100%, 15 min each. If the tissue is more than 2mm thick extend the last step (100%) to 30min.
-2. Clear the tissue through a series of graded butanol (with ethanol) 50%, 75%, 90% and 100%, 30 min each.
+2. Clear the tissue through a series of graded butanol (with ethanol) 50%, 75%, 100% and 100%, 30 min each (the last one can be extended to 1 h).
 3. Remove the butanol and insert the tissue into a glass vial with melted paraffin, incubate 1h in the oven preheated to 58-60 °C 
 4. Transfer the tissue into another new glass vial with melted paraffin, incubate overnight
 5. Transfer the tissue into the other glass vial with melted paraffin for 2h.
